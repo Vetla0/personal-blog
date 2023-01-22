@@ -1,0 +1,334 @@
+/* размер от 2000 до 320 */
+@media screen and (max-width: 1210px) {
+  #client-text {
+    margin-top: 80px;
+  }
+  .caseStudies-title,
+  .recentWork-title {
+    margin-bottom: 25px;
+  }
+  .caseStudies-works {
+    margin-bottom: 25px;
+  }
+  .cS-works-name {
+    padding: 0 0;
+  }
+  .testimonials-block {
+    max-width: 45%;
+  }
+  .testimonials-title {
+    padding-bottom: 0px;
+  }
+  .photo {
+    /* margin-top: 50px; */
+    /* width: 261px; */
+    /* height: 250px; */
+    /* background: url(/img/Header/image.png) no-repeat; */
+    /* background-size: 100%; */
+    /* border: 0.1px solid #1b1b1b; */
+    border-radius: 250px;
+  }
+  .main-info {
+    width: 418px;
+  }
+  .container-logo {
+    width: 829px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header-nav {
+    height: 515px;
+  }
+  .main-header {
+    height: 445px;
+  }
+  .header-nav li {
+    margin-right: 3%;
+  }
+  .header-nav ul {
+    margin-left: 3%;
+  }
+  .network {
+    margin-left: -2%;
+  }
+  .photo {
+    width: 245px;
+    height: 245px;
+
+    background-size: 245px;
+  }
+  .main-info {
+    margin-top: 14px;
+  }
+
+  .info-name {
+    font-size: 40px;
+  }
+  #client-text {
+    margin-top: 38px;
+  }
+  .container-logo {
+    margin: 358px auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-nav li a {
+    font-size: 12px;
+  }
+  .container-nav {
+    height: 52px;
+  }
+  .header-nav li,
+  .network {
+    margin-top: 14px;
+  }
+  .network {
+    margin-left: -2%;
+  }
+
+  .network img {
+    width: 78%;
+  }
+
+  .info-name {
+    font-size: 35px;
+  }
+  .photo {
+    width: 251px;
+    height: 251px;
+    background-size: 251px;
+    background-position: top;
+  }
+  .logo,
+  #logo3 img {
+    width: 100px;
+  }
+
+  .recentWork {
+    margin-top: 0;
+  }
+  .testimonials-block {
+    max-width: 90%;
+  }
+  .testimonials-title h2,
+  .recentWork-title h2 {
+    padding-top: 37px;
+  }
+  .testimonials-block {
+    margin-bottom: 37px;
+  }
+  .testimonials-block p {
+    padding: 30px 16px 45px;
+  }
+  .left,
+  .right {
+    display: none;
+  }
+  .slider-container {
+    display: block;
+  }
+  .recentWork-slider-name {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .love p {
+    font-size: 18px;
+    line-height: 25px;
+
+    margin-top: 18px;
+  }
+  .love {
+    height: 83px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container-nav li {
+    display: none;
+  }
+  .for-mobile-menu {
+    display: block;
+    position: absolute;
+  }
+  .network {
+    float: right;
+    margin-left: 5px;
+  }
+  .header-nav ul {
+    display: block;
+  }
+  .main-header {
+    height: 538px;
+  }
+
+  .info-name {
+    font-size: 26px;
+    padding: 0;
+  }
+  .info {
+    font-size: 13px;
+  }
+  .main-info a {
+    font-size: 13px;
+    line-height: 9px;
+
+    width: 257px;
+    height: 26px;
+  }
+  .logo img,
+  #logo3 img {
+    width: 80px;
+  }
+  .logo,
+  #logo3 {
+    padding-top: 9px;
+    height: 39px;
+    width: 82px;
+  }
+  .container-info {
+    max-width: 90%;
+    height: 418px;
+    display: block;
+    margin: 0 auto;
+
+    text-align: center;
+    margin-top: 232px;
+  }
+  .photo {
+    position: absolute;
+    top: -67px;
+    left: calc(50% - 253px / 2);
+  }
+  .main-info,
+  .main-info a {
+    margin: 0 auto;
+  }
+  .info {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .container-logo {
+    margin: -2px auto;
+  }
+  .logo img,
+  #logo3 img {
+    width: 68%;
+  }
+  .caseStudies {
+    margin-top: 144px;
+  }
+  .getInTouch-title p {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 114px;
+  }
+  .getInTouch-title h2 {
+    font-size: 29px;
+
+    margin-left: calc(55% - 206px / 2);
+    margin-top: 44px;
+  }
+  .love p {
+    font-size: 18px;
+    line-height: 25px;
+
+    margin-top: 18px;
+  }
+  .footer_title {
+    display: block;
+    /* align-items: flex-end; */
+    text-align: center;
+    margin-top: -16px;
+    margin-left: 0;
+    color: #ffffff;
+    position: relative;
+  }
+  .footer_contact {
+    position: relative;
+    text-align: center;
+    padding-top: 21px;
+  }
+  .footer_contact p {
+    /* position: relative;
+    text-align: center; */
+    margin: 0;
+  }
+  .footer_social {
+    padding: 0;
+    justify-content: left;
+    padding-left: 12px;
+    padding-top: 20px;
+  }
+  .about_buttons {
+    margin-top: -38px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .info-name {
+    font-size: 30px;
+  }
+  .main-info {
+    width: 100%;
+  }
+  #client-text {
+    margin-top: 14px;
+    margin-left: 10px;
+  }
+
+  .container-logo {
+    display: block;
+  }
+  .logo img,
+  #logo3 img {
+    width: 65px;
+    margin-left: 10px;
+  }
+  .logo,
+  #logo3 {
+    padding-top: 1px;
+    border: none;
+  }
+
+  .caseStudies-title h2,
+  .recentWork-title h2 {
+    font-size: 30px;
+  }
+  .caseStudies-works {
+    flex-direction: column-reverse;
+  }
+  .c-S-w-reverse {
+    flex-direction: column;
+  }
+  .cS-works-name,
+  .caseStudies-img {
+    width: 100%;
+  }
+  .cS-edTech {
+    margin-left: 0px;
+  }
+  .cS-works-name button {
+    margin-top: 6px;
+  }
+  .cS-works-name {
+    padding-top: 5px;
+  }
+  .about_buttons {
+    width: 193px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #email,
+  #mobile,
+  #message,
+  #submit {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .about_buttons {
+    width: 142px;
+  }
+}
